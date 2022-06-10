@@ -1,0 +1,556 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: cursive;
+    font-style: oblique;
+    font-stretch: expanded;
+    font-size: 0.90rem;
+    background: white;
+    user-select: none;
+    overflow-x: hidden;
+    color: black;
+    color: black;
+}
+
+.top {
+
+    display: flex;
+    float: right;
+    width: 80%;
+    align-items: right;
+
+
+}
+
+.main_container {
+    height: 100%;
+    width: 100%;
+    background-image: url("./images/pexels-negative-space-169573.jpg");
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background-position: center;
+    background-size: cover;
+}
+
+.top .top_li {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 3rem;
+    width: 80%;
+    font-size: 1rem;
+
+}
+
+.top .top_li a {
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.top .top_li a:hover {
+    color: blue;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.banner_text {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 50%;
+    padding: 10rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.banner_text .text {
+    font-size: 3rem;
+    color: #eee;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: fantasy;
+}
+
+.banner_text .text:hover {
+    color: rgb(255, 248, 248);
+    cursor: pointer;
+}
+
+.banner_text .text .mySpan {
+    color: rgba(244, 244, 83, 0.898);
+}
+
+.banner_text .text .mySpan:hover {
+    color: rgba(137, 17, 23, 0.845);
+}
+
+.banner_text .btn {
+    width: 100%;
+    height: 10vh;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: green;
+    font-weight: bold;
+    border: none;
+
+}
+
+.banner_text .btn:hover {
+    transform: all 0.3ms linear;
+    background-color: rgba(255, 255, 255, 0.686);
+    cursor: pointer;
+}
+
+/* main .about 
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    background: rgba(255, 68, 0, 0.597);
+    width: 20%;
+    height: 3rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 50px;
+} */
+main .sec  {
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 2rem;
+    width: 90%;
+    padding : 3rem;
+    
+}
+
+main .aim {
+
+    color: orangered;
+    font-size: 1rem;
+    text-align : center;
+    margin-left: 2rem;
+}
+
+main .aim_txt {
+    font-weight: 100;
+    font-family: cursive;
+    font-style: oblique;
+    color: black;
+    text-align: center;
+   
+}
+
+main .sec img {
+    height: 30vh;
+    width: 100%;
+}
+
+main .lang {
+    text-align: center;
+   font-size: 1rem;
+    
+    color: black;
+}
+
+.pro_lang img {
+
+    width: 20%;
+    height: 30vh;
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+   padding: 3rem;
+ 
+
+
+}
+
+.foo_text {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    color: white;
+    display: inline-flex;
+    justify-content: space-between;
+    justify-items: center;
+    
+}
+
+.foo_text .foot_dev {
+    padding: 1rem;
+  
+}
+
+.foo_text .foot_dev a {
+    color: yellow;
+    font-size: 1rem;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+.quote_container {
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    
+
+}
+
+.h4 {
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 50px;
+   
+    margin-bottom: 2rem;
+    height: 2rem;
+}
+
+.quote-container_1 {
+   
+    height: auto;
+    width: 50%;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+    
+
+}
+
+.quote-container_1 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 3rem 3rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.quote-container_1 h4 {
+    text-align: center;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+.quote-container_2 {
+ 
+    height: auto;
+    width: 50%;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+}
+
+.quote-container_2 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 3rem 3rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.quote-container_2 h4 {
+    text-align: center;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+.quote-container_3 {
+    /* background-color: rgba(139, 136, 136, 0.468); */
+   height: auto;
+    width: 50%;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 760px) {
+    .quote_container {
+        display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    }
+    .pro_lang img {
+
+        width: 20%;
+        height: 30vh;
+        display: inline-block;
+        justify-content: center;
+        justify-items: center;
+       padding: 3rem;
+     
+    
+    
+    }
+}
+
+.quote-container_3 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 3rem 3rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.quote-container_3 h4 {
+    text-align: center;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+.Faq {
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+ padding: 1rem;
+
+}
+
+.Faq img {
+    height: 40vh;
+    width: 100%;
+}
+
+.Faq h2 {
+    font-family: fantasy;
+    font-style: oblique;
+    font-stretch: expanded;
+    text-align: center;
+}
+.Faq h3 {
+    font-family: cursive;
+    font-style: oblique;
+    font-stretch: expanded;
+    text-align: center;
+}
+
+.Faq h2:last-child {
+    font-weight: 100;
+}
+
+.Faq .ask {
+    height: 3rem;
+    width: 20rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Faq .askBtn {
+    background-color: rgba(68, 68, 242, 0.831);
+    height: 2rem;
+    margin-top: 1rem;
+    width: 15rem;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    animation: shaker 1s 05ms infinite reverse forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Faq .askBtn:hover {
+    transform: all 0.2 linear;
+    color: rgb(70, 21, 3);
+    cursor: pointer;
+}
+
+.subscribe {
+    display: block;
+    float: right;
+    width: 100%;
+  
+
+}
+.subscribe img{
+    height: 40vh;
+    width: 100%;
+  
+
+}
+
+.subscribe .sub {
+
+    margin-left: 4rem;
+    height: 3rem;
+    width: 20rem;
+    border: 1px solid black;
+}
+
+.subscribe .subBtn {
+
+    margin-left: 4rem;
+    height: 3rem;
+    width: 20rem;
+    border: none;
+    margin-top: 1rem;
+    font-family: bold;
+    font-style: oblique;
+    font-family: fantasy;
+    background-color: rgba(68, 68, 242, 0.831);
+    color: white;
+    border-radius: 50px;
+
+}
+
+.subscribe .subBtn {
+    transform: all 0.2 linear;
+    color: white;
+    cursor: pointer;
+    animation: shaker 1s 05ms infinite reverse forwards;
+}
+
+.subscribe .subBtn:hover {
+    color: black;
+}
+
+.main_container .menubar {
+
+    margin-left: 4rem;
+
+}
+
+.menubar {
+  
+    text-transform: uppercase;
+    font-size: 1rem;
+    float: right;
+    color: white;
+    margin-right: 2rem;
+}
+
+@keyframes shaker {
+    100% {
+        transform: translateX(25px);
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .main_container 
+    {
+        width: 100%;
+        display: flexbox;
+        justify-content: center;
+        justify-items: center;
+        grid-template-columns:7rem auto 23rem;
+    }
+    .sec .aim
+    {
+        font-size: 2vh;
+        margin-right: 3rem;
+    }
+    .sec img 
+    {
+        margin-right: 2rem;
+    }
+    .sec .aim_txt
+    {
+        font-size: 0.8rem;
+    }
+ .lang 
+ {
+    font-size: 3vh;
+ }
+.pro_lang  img
+{
+    display: inline-block;
+    justify-content: center;
+        justify-items: center;
+        height: 20vh;
+        width: 20vh;
+}
+}
+
+
+/* register */
+.section_register {
+    background-image: url("./images/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.section_register img {
+    height: 200px;
+    margin-top: 15rem;
+    margin-left: 6rem;
+
+
+}
+
+.login {
+    background-color: rgba(255, 255, 255, 0.338);
+    height: 60%;
+    z-index: -1;
+    margin-top: 10rem;
+    float: right;
+    width: 30%;
+    margin-right: 8rem;
+    opacity: 2;
+
+}
+
+.login .input {
+    width: 28rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.login button {
+    width: 15rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    margin-left: 7rem;
+    border: none;
+    font-family: fantasy;
+    background-color: rgba(255, 255, 255, 0.338);
+}
+
+.login button:hover {
+    color: blue;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.338);
+}
